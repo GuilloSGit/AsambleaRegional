@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Informes | Farmacias</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+</head>
+
+<body class="p-3 m-0 border-0 bd-example">
+    <!-- Nav Container -->
+        <div class="nav-container">
+            <div class="flecha"><a class="flecha" href="./index.html">⬅️</a></div>
+            <div class="nav-container_depto">
+                <span></span><a class="depto_info" href="./index.html"><span>ℹ️</span> Depto. Información</a>
+                <p class="anio_asamblea">Asamblea Regional 2023 - San Juan</p>
+            </div>
+            <div class="nav-container_tema">
+                <p class="tema_asamblea">"Tengan Paciencia"</p>
+            </div>
+        </div>
+
+    <!-- Body Container -->
+    <div class="cointainer p-1">
+        <div class="entity-container mt-5" id="card-container">
+            <!-- Cards de cada una de las farmacias -->
+        </div>
+    </div>
+    <div class="back-button-container">
+        <a class="back" href="./index.html"><span>🏠</span></a>
+    </div>
+    <script>
+
+        // Función para crear una tarjeta de clínica
+        function createClinicaCard(farmacia) {
+            const cardContainer = document.getElementById('card-container');
+            const card = document.createElement('div');
+            card.classList.add("col-sm-auto", "card", "m-2", "entity-card-container");
+
+            // Filtrar clínicas por su nombre (ignorando url e imageUrl)
+            if (farmacia.nombre) {
+                const cardTitle = document.createElement('h5');
+                cardTitle.classList.add('card-title');
+                cardTitle.textContent = farmacia.nombre;
+
+                const cardContent = document.createElement('div');
+                cardContent.classList.add('card-content');
+                
+                cardContent.innerHTML = `
+                    <p class="card-content-direccion">${farmacia.dirección}</p>
+                    <div class="card-content-info">
+                        <p class="card-content-telefono">${farmacia.teléfono}</p>
+                        <a class="card-content-gps" href="${farmacia.gps}" target="_blank">Ver 🗺️</a>
+                    </div>
+                `;
+
+                card.appendChild(cardTitle);
+                card.appendChild(cardContent);
+                cardContainer.appendChild(card);
+
+            }
+        }
+
+        // Función para crear todas las tarjetas de clínicas
+        function createClinicaCards(farmacias) {
+            for (const key in farmacias) {
+                createClinicaCard(farmacias[key]);
+            }
+        }
+
+        // Llama a la función para crear las tarjetas de clínicas cuando la página se carga
+        window.onload = async function() {
+            try {
+                const response = await fetch('data.json'); // Carga el archivo JSON
+                const data = await response.json(); // Convierte la respuesta a un objeto JavaScript
+
+                // Llama a la función para crear y mostrar tarjetas para esta categoría específica
+                createClinicaCards(data.farmacias);
+
+            } catch (error) {
+                console.error('Error al cargar los datos: ', error);
+            }
+
+        };
+
+    </script>
+</body>
+
+</html>
