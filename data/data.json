@@ -1,7 +1,7 @@
 {
   "hoteles y alojamiento": {
-    "imageUrl": "",
-    "url": "./hoteles.html",
+    "imageUrl": "../assets/hotel-min.png",
+    "url": "./views/hoteles.html",
     "01": {
       "Nombre": "Hotel San Francisco",
       "Dirección": "Av. España Sur 284",
@@ -63,9 +63,10 @@
       "gps": ""
     }
   },
-  "centros comerciales": {
-    "imageUrl": "https://www.infobae.com/new-resizer/CMYks7Z0zjM0axvIhCxv25gAAh0=/750x0/filters:quality(100)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/3A5V3CROBFCB3AQB4QREIHSD7E.jpg",
-    "url": "./centros-comerciales.html",
+  
+  "comercios y mercados": {
+    "imageUrl": "",
+    "url": "./views/centros-comerciales.html",
     "01": {
       "Nombre": "Patio Alvear Shopping",
       "Dirección": "Av. Libertador Gral. San Martín 1826",
@@ -127,9 +128,9 @@
       "gps": "https://maps.app.goo.gl/1n8UxbMPTeC6KYYM6"
     }
   },
-  "hospitales y clínicas especializadas": {
+  "hospitales y clínicas": {
     "imageUrl": "https://comunidadprofesional.com.ar/wp-content/uploads/2023/04/clinicas.jpg",
-    "url": "./clinicas.html",
+    "url": "./views/clinicas.html",
     "01": {
       "Nombre": "Clínica Guadalupe",
       "Dirección": "Matías Zavalla Norte 402",
@@ -191,33 +192,9 @@
       "gps": "maps.app.goo.gl/tVQvvnaNNPjRragE6"
     }
   },
-  "transporte": {
-    "imageUrl": "URL_DE_LA_IMAGEN_DEL_TRANSPORTE",
-    "url": "URL_DE_LA_PÁGINA_DEL_TRANSPORTE",
-    "01": {
-      "Nombre": "REMIS OESTE",
-      "Teléfono": "4272222"
-    },
-    "02": {
-      "Nombre": "RAMPA REMIS",
-      "Teléfono": "4341234"
-    },
-    "03": {
-      "Nombre": "REMIS SAN CAYETANO",
-      "Teléfono": "4216980"
-    },
-    "04": {
-      "Nombre": "TAXI SAN JUAN",
-      "Teléfono": "4217000"
-    },
-    "05": {
-      "Nombre": "DEL BONO REMIS",
-      "Teléfono": "4210210"
-    }
-  },
   "restaurantes": {
     "imageUrl": "URL_DE_LA_IMAGEN_DEL_RESTAURANTE",
-    "url": "URL_DE_LA_PÁGINA_DE_RESTAURANTES",
+    "url": "./views/restaurantes.html",
     "01": {
       "Nombre": "El Palacio De La Milanesa",
       "Dirección": "Av. Libertador Gral. San Martin Oeste y Carlos M. de Alvear Sur 1730",
@@ -279,9 +256,9 @@
       "gps": "maps.app.goo.gl/KRn1gFuPxpvg9X4U9"
     }
   },
-  "taxis_y_remises": {
+  "transportes": {
     "imageUrl": "URL_DE_LA_IMAGEN_DE_TAXIS_Y_REMISES",
-    "url": "URL_DE_LA_PÁGINA_DE_TAXIS_Y_REMISES",
+    "url": "./views/transportes.html",
     "01": {
       "Nombre": "REMIS OESTE",
       "Teléfono": "4272222"
@@ -303,9 +280,9 @@
       "Teléfono": "4210210"
     }
   },
-  "bancos_y_cajeros": {
+  "bancos y cajeros": {
     "imageUrl": "URL_DE_LA_IMAGEN_DE_BANCOS_Y_CAJEROS",
-    "url": "URL_DE_LA_PÁGINA_DE_BANCOS_Y_CAJEROS",
+    "url": "./views/bancos.html",
     "01": {
       "Nombre": "BANCO SAN JUAN LINK",
       "Dirección": "Av. Libertador Gral. San Martín 1826",
@@ -330,6 +307,70 @@
       "Nombre": "Banco Galicia",
       "Dirección": "Av. José Ignacio de la Roza Este 112",
       "gps": "maps.app.goo.gl/TwNSR1pouzLgSsKA6"
+    }
+  },
+  "farmacias": {
+    "imageUrl": "URL_DE_LA_IMAGEN_DE_FARMACIAS",
+    "url": "./views/farmacias.html",
+    "01": {
+      "Nombre": "Farmacia San Martín",
+      "Dirección": "Av. Libertador Gral. San Martín 593",
+      "Teléfono": "02644215555",
+      "gps": "goo.gl/maps/Yks2arWfMzUtGWTd9"
+    },
+    "02": {
+      "Nombre": "Farmacia Cura Brochero",
+      "Dirección": "Ramón y Cajal Nte. 40",
+      "Teléfono": "2644277728",
+      "gps": "maps.app.goo.gl/TatKk7StwuqM2xS89"
+    },
+    "03": {
+      "Nombre": "Farmacia Matias",
+      "Dirección": "25 de Mayo 1606, San Juan",
+      "Teléfono": "02644264753",
+      "gps": "maps.app.goo.gl/YrctBHfLov54ugNq6"
+    },
+    "04": {
+      "Nombre": "Farmacia Santa Cecilia",
+      "Dirección": "Florentino Ameghino Sur, San Juan",
+      "Teléfono": "02644236031",
+      "gps": "maps.app.goo.gl/sDEsKPCS5gKmc4XC7"
+    },
+    "05": {
+      "Nombre": "Farmacia Santa Gema",
+      "Dirección": "Urquiza Sur 299, San Juan",
+      "Teléfono": "4216444",
+      "gps": "maps.app.goo.gl/9B7wnXMpn2Apwn9b9"
+    },
+    "06": {
+      "Nombre": "Farmacia Universidad I",
+      "Dirección": "Av. José Ignacio de la Roza Oeste 1139, J5402DCL San Juan",
+      "Teléfono": "",
+      "gps": "maps.app.goo.gl/kMkTZjghi96zuZEs9"
+    },
+    "07": {
+      "Nombre": "Farmacia Parque",
+      "Dirección": "Av. José Ignacio de la Roza Oeste 850 oeste, San Juan",
+      "Teléfono": "02644273838",
+      "gps": "maps.app.goo.gl/X3Z3zuSGJEniCWCUA"
+    },
+    "08": {
+      "Nombre": "Farmacia Sabin II",
+      "Dirección": "Av. José Ignacio de la Roza Oeste 1816 esquina Paula A. de Sarmiento, San Juan",
+      "Teléfono": "02644238790",
+      "gps": "maps.app.goo.gl/AED6iPPqtAKSk5SB9"
+    },
+    "09": {
+      "Nombre": "Farmacia San Pantaleon II",
+      "Dirección": "Las Heras Sur y Francisco Laprida",
+      "Teléfono": "02644221818",
+      "gps": "maps.app.goo.gl/qrRUXtSzFSgW1EGE8"
+    },
+    "10": {
+      "Nombre": "Farmacia Desamparados",
+      "Dirección": "Av. Libertador y Calle San Martín Oeste 2338",
+      "Teléfono": "4261234",
+      "gps": "maps.app.goo.gl/FLGJYGw2vcMPfhX77"
     }
   }
 }

@@ -4,10 +4,18 @@
   --ambient-color: #000;
   --box-shadow-default: 2px 2px 10px rgba(231, 231, 231, 0.219);
   --transparent-container: #cecece91;
+  --big-fs: 40px;
+  --small-fs: 10px;
+  --big-percentage-fs: 2vw;
+  --small-percentage-fs: 1vw;
+  --box-border-radius: 3px;
+  --large-paddings: 35px;
+  --large-margins: 35px;
+  --small-margins: 3px;
 }
 
 body {
-  margin-left: 35px;
+  margin-left: var(--large-margins);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +27,7 @@ body::before {
   position: absolute;
   content: "";
   width: 100%;
-  height: 13vw;
+  height: 12vw;
   min-height: 60px;
   max-height: 120px;
   background-image: url("./assets/bg.jpg");
