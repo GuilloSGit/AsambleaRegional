@@ -1,94 +1,101 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <title>Informes | Hospitales</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.2/assets/css/docs.css"
+      rel="stylesheet"
+    />
+   <link rel="icon" href="../assets/SVG/Estadios.svg" type="image/svg+xml" />
+   <link
+     rel="shortcut icon"
+     href="../assets/SVG/Estadios.svg"
+     type="image/svg+xml"
+   />
+    <link rel="stylesheet" href="../assets/styles.css" />
+    <title>Informes | Asamblea Regional</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-</head>
-</head>
+  </head>
 
-<body class="p-3 m-0 border-0 bd-example">
+  <body class="p-3 m-0 border-0 bd-example">
     <!-- Nav Container -->
-        <div class="nav-container">
-            <div class="flecha"><a class="flecha" href="./index.html">⬅️</a></div>
-            <div class="nav-container_depto">
-                <a class="depto_info" href="./index.html"><span>ℹ️</span> Depto. Información</a>
-                <p class="anio_asamblea">Asamblea Regional 2023 - San Juan</p>
-            </div>
-            <div class="nav-container_tema">
-                <p class="tema_asamblea">"Tengan Paciencia"</p>
-            </div>
-        </div>
+    <div class="nav-container">
+      <div class="flecha"><a class="flecha" href="../index.html">⬅️</a></div>
+      <div class="nav-container_depto">
+        <a class="depto_info" href="../index.html"
+          ><span>ℹ️</span> Depto. Información</a
+        >
+        <p class="anio_asamblea">Asamblea Regional 2023 - San Juan</p>
+      </div>
+      <div class="nav-container_tema">
+        <p class="tema_asamblea">"Tengan Paciencia"</p>
+      </div>
+    </div>
 
     <!-- Body Container -->
-    <div class="cointainer p-1">
-        <div class="entity-container mt-5" id="card-container">
-            <!-- Cards de cada una de las hospitales -->
-        </div>
+    <div class="cointainer entities-container p-1" id="card-container">
+      <!-- Auto llenado desde JS -->
     </div>
     <div class="back-button-container">
-        <a class="back" href="./index.html"><span>🏠</span></a>
+      <a class="back" href="../index.html"><span>🏠</span></a>
     </div>
     <script>
+      function createEntityCard(centro, icono) {
+        const cardContainer = document.getElementById("card-container");
+        const card = document.createElement("div");
+        card.classList.add(
+          "col-lg-auto",
+          "card",
+          "m-2",
+          "entity-card-container"
+        );
 
-        // Función para crear una tarjeta de clínica
-        function createClinicaCard(hospital) {
-            const cardContainer = document.getElementById('card-container');
-            const card = document.createElement('div');
-            card.classList.add("col-sm-auto", "card", "m-2", "entity-card-container");
-
-            // Filtrar clínicas por su nombre (ignorando url e imageUrl)
-            if (hospital.nombre) {
-                const cardTitle = document.createElement('h5');
-                cardTitle.classList.add('card-title');
-                cardTitle.textContent = hospital.nombre;
-
-                const cardContent = document.createElement('div');
-                cardContent.classList.add('card-content');
-                
-                cardContent.innerHTML = `
-                    <p class="card-content-direccion">${hospital.dirección}</p>
-                    <div class="card-content-info">
-                        <p class="card-content-telefono">${hospital.teléfono}</p>
-                        <a class="card-content-gps" href="${hospital.gps}" target="_blank">Ver 🗺️</a>
-                    </div>
+        if (centro.Nombre) {
+          const cardTitle = document.createElement("h5");
+          cardTitle.classList.add("card-title");
+          cardTitle.innerHTML = `
+                    <div class="icono"><img src="${icono}" alt="${centro.Nombre}" style="height:39px"><p class="entity-name">${centro.Nombre}</p></div>
                 `;
 
-                card.appendChild(cardTitle);
-                card.appendChild(cardContent);
-                cardContainer.appendChild(card);
+          const cardContent = document.createElement("div");
+          cardContent.classList.add("card-content");
 
-            }
+          cardContent.innerHTML = `
+                    <p class="card-content-direccion">${centro.Dirección}</p>
+                    <div class="card-content-info">
+                      <a href="tel:${centro.Teléfono}" class="card-content-telefono">${centro.Teléfono}</a>
+                      <a class="card-content-gps" href="${centro.gps}" target="_blank"><span><img src="../assets/SVG/MAPS_GPS.svg"/></span></a>
+                    </div>
+                  `;
+
+          card.appendChild(cardTitle);
+          card.appendChild(cardContent);
+          cardContainer.appendChild(card);
         }
+      }
 
-        // Función para crear todas las tarjetas de clínicas
-        function createClinicaCards(hospitales) {
-            for (const key in hospitales) {
-                createClinicaCard(hospitales[key]);
-            }
+      function createCards(hospitales) {
+        for (const key in hospitales) {
+          const icono = hospitales.icono;
+          createEntityCard(hospitales[key], icono);
         }
+      }
 
-        // Llama a la función para crear las tarjetas de clínicas cuando la página se carga
-        window.onload = async function() {
-            try {
-                const response = await fetch('data.json'); // Carga el archivo JSON
-                const data = await response.json(); // Convierte la respuesta a un objeto JavaScript
+      window.onload = async function () {
+        try {
+          const response = await fetch("../data/data.json");
+          const data = await response.json();
 
-                // Llama a la función para crear y mostrar tarjetas para esta categoría específica
-                createClinicaCards(data.hospitales);
-
-            } catch (error) {
-                console.error('Error al cargar los datos: ', error);
-            }
-
-        };
-
+          createCards(data["hospitales y clínicas"]);
+        } catch (error) {
+          console.error("Error al cargar los datos: ", error);
+        }
+      };
     </script>
-</body>
-
+  </body>
 </html>

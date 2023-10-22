@@ -1,17 +1,24 @@
 :root {
   --primary-color: #fff;
   --secondary-color: #d6d6d6e6;
-  --ambient-color: #000;
-  --box-shadow-default: 2px 2px 10px rgba(231, 231, 231, 0.219);
+  --ambient-color: #3f3f3f;
+  --header-color: #000;
+  --box-shadow-default: 2px 2px 6px rgba(231, 231, 231, 0.219);
   --transparent-container: #cecece91;
   --big-fs: 40px;
-  --small-fs: 10px;
-  --big-percentage-fs: 2vw;
+  --small-fs: 13px;
+  --big-percentage-fs: 2.2vh;
   --small-percentage-fs: 1vw;
   --box-border-radius: 3px;
-  --large-paddings: 35px;
+  --large-paddings: 15px;
   --large-margins: 35px;
   --small-margins: 3px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -26,14 +33,14 @@ body {
 body::before {
   position: absolute;
   content: "";
+  background-color: var(--header-color);
   width: 100%;
   height: 12vw;
   min-height: 60px;
   max-height: 120px;
-  background-image: url("./assets/bg.jpg");
   top: 0;
   z-index: 0;
-  box-shadow:var(--box-shadow-default);
+  box-shadow: var(--box-shadow-default);
 }
 
 .nav-container {
@@ -53,8 +60,6 @@ a {
   height: 25vh;
   min-width: 41%;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   mix-blend-mode: normal;
   display: flex;
   flex-direction: column;
@@ -68,27 +73,32 @@ a {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.03);
-  rotate: -.5deg;
-  background-size: 370px;
+  rotate: -0.5deg;
 }
 
 .category-label {
-  background: #0000006a;
-  color: #fff;
-  padding: 15px;
+  background: #000000b4;
+  color: var(--primary-color);
+  padding: var(--large-paddings);
   min-width: 60%;
-  border-radius: 3px;
+  width: 190px;
+  border-radius: 3px 3px 3px 3px;
+  transition: transform, opacity, clip-path 1s;
+  transform: scale(1);
+  opacity: 1;
 }
 
 .category-label:hover {
   cursor: pointer;
+  transform: scale(1.1);
+  opacity: 0.7;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
 .tema_asamblea {
   color: var(--primary-color);
   font-size: 3.2vw;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Lucida Grande", sans-serif;
 }
 
 .anio_asamblea {
@@ -101,101 +111,111 @@ a {
 }
 
 @media screen and (max-width: 700px) {
-    .nav-container {
-        flex-direction: column-reverse;
-    }
-    body::before {
-        min-height: 110px;
-    }
-    .depto_info{
-        font-size: 12px;
-    }
-    .tema_asamblea{
-        font-size: 20px;
-        margin-bottom: 0;
-    }
-    .anio_asamblea {
-        display: none;
-    }
-    .entity-card-container {
-      width: 90vw !important;
-    }
+  .nav-container {
+    flex-direction: column-reverse;
+  }
+  body::before {
+    min-height: 110px;
+  }
+  .depto_info {
+    font-size: 12px;
+  }
+  .tema_asamblea {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .anio_asamblea {
+    display: none;
+  }
 }
 
 .back-button-container {
-    position: fixed;
-    top:93%;
-    right: 4%;
-    background-color: var(--transparent-container);
-    box-shadow: var(--box-shadow-default);
-    padding: 3px 6px;
-    border-radius: 3px;
+  position: fixed;
+  top: 93%;
+  right: 4%;
+  background-color: var(--header-color);
+  box-shadow: var(--box-shadow-default);
+  padding: 3px 6px;
+  border-radius: 3px;
 }
 
 .flecha {
-  font-size: 30px;
+  font-size: 23px;
   animation: mymove 0.3s infinite;
   text-align: left;
 }
 
 @keyframes mymove {
-  from{
+  from {
     rotate: 5deg;
   }
-  to{
-    rotate:-5deg;
+  to {
+    rotate: -5deg;
   }
 }
 
-.card-title{
+.card-title {
   color: var(--secondary-color);
   margin: 12px 0;
 }
 
-.card-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.entity-container {
+.entities-container {
+  margin-top: var(--large-margins);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
+  max-width: 900px;
 }
 
 .entity-card-container {
-  width: 40%;
-  min-width: 250px;
-  line-height: 1;
+  background-image: url("../assets/TARJETA_LIMPIA.png");
+  background-position: -20px -20px;
+  background-size: 504px 337px;
+  display: flex;
+  flex-direction: column;
   justify-content: start;
-  background-image: url("./opcion.jpg");
-  filter: brightness(1.2);
-  margin: 2px 10px;
+  align-items: start;
+  min-width: 230px;
+  width: 43%;
+  color: #9FB9E3;
+}
+
+.icono {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: calc(var(--large-margins) - 20px);
+}
+
+.entity-name {
+  font-size: calc(var(--big-percentage-fs) + 2%);
+  font-weight: 700;
+  margin-bottom: 0;
+  padding-left: var(--small-margins);
+}
+
+.card-content {
+  width: 100%;
+  color: var(--primary-color);
+  color: #9FB9E3;
 }
 
 .card-content-direccion {
-  text-align: center;
-  margin-top: -9px;
-  font-size: 10px;
+  margin: 15px 15px 15px var(--large-margins);
+  font-size: var(--small-fs);
+  line-height: 1;
 }
 
 .card-content-info {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 0;
-  gap: 5px;
+  justify-content: space-evenly;
+  color: #9FB9E3;
 }
 
-.card-content-gps {
-  color: #000;
-}
-
-.card-content-especialidades {
-  text-align: center;
-  max-width: 300px;
-  font-size: 10px;
-  margin: 15px 10px;
+.card-content-telefono, .card-content-gps {
+  line-height: 1;
+  margin-bottom: .5em;
+  color: #9FB9E3;
 }

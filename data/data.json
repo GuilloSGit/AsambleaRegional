@@ -1,54 +1,56 @@
 {
-  "hoteles y alojamiento": {
-    "imageUrl": "../assets/hotel-min.png",
+  "hotelería": {
+    "imageUrl": "../assets/hotel.png",
     "url": "./views/hoteles.html",
+    "icono": "../assets/SVG/Hoteles.svg",
+    "alt": "Icono de hoteles",
     "01": {
       "Nombre": "Hotel San Francisco",
       "Dirección": "Av. España Sur 284",
       "Teléfono": "2644223760",
-      "gps": "goo.gl/maps/pTuGy8K9q5io92CC7"
+      "gps": "https://www.google.com/maps/place/Hotel+San+Francisco/@-31.5389437,-68.5390933,17.42z/data=!4m9!3m8!1s0x9681402fdf1d89bd:0x79af784f9da04d53!5m2!4m1!1i2!8m2!3d-31.5383286!4d-68.5361738!16s%2Fg%2F1tgdvbqn?entry=ttu"
     },
     "02": {
       "Nombre": "Hotel El Refugio",
-      "Dirección": "",
-      "Teléfono": "",
-      "gps": "maps.app.goo.gl/PYfkKGPDkcekkFZc8"
+      "Dirección": "Una dirección que no pusieron",
+      "Teléfono": "Un número vacío",
+      "gps": "https://www.google.com/maps/place/Apart+Hotel+El+Refugio/@-31.5322213,-68.5474219,17.75z/data=!4m20!1m10!3m9!1s0x9681403523292645:0xb805140925e5cadf!2sApart+Hotel+El+Refugio!5m2!4m1!1i2!8m2!3d-31.5322051!4d-68.5459799!16s%2Fg%2F1tdljhn6!3m8!1s0x9681403523292645:0xb805140925e5cadf!5m2!4m1!1i2!8m2!3d-31.5322051!4d-68.5459799!16s%2Fg%2F1tdljhn6?entry=ttu"
     },
     "03": {
-      "Nombre": "Hotel El Refugio",
-      "Dirección": "Ramón y Cajal Nte. 97, J5402DVA San Juan",
-      "Teléfono": "",
-      "gps": "maps.app.goo.gl/hcxa2yS9Yhqqrbn48"
-    },
-    "04": {
       "Nombre": "Capital Hostel",
       "Dirección": "Ramón y Cajal Nte. 302, J5400 DVH, San Juan",
       "Teléfono": "02644210310",
       "gps": "maps.app.goo.gl/6HBFbGp7B6Xcfe448"
     },
-    "05": {
+    "04": {
       "Nombre": "Hotel de Barrio Ciudad Naranjo",
       "Dirección": "Balcarce 55 OESTE, Rivadavia, San Juan",
       "Teléfono": "02644827408",
       "gps": "maps.app.goo.gl/mdXss5UeyLMKCTc17"
     },
-    "06": {
+    "05": {
       "Nombre": "Terraza del Sol Apart",
       "Dirección": "Santiago del Estero Sur y Fray Mamerto Esquiú, San Juan",
       "Teléfono": "02644275821",
       "gps": "maps.app.goo.gl/UmusvR7PeQCU8ohA9"
     },
-    "07": {
+    "06": {
       "Nombre": "Hotel Nuevo Suizo",
       "Dirección": "Salta entre Mitre e Ignacio de la Roza, Capital",
       "Teléfono": "02644210067",
       "gps": "maps.app.goo.gl/6cTYnTKakmAXEqQb8"
     },
-    "08": {
+    "07": {
       "Nombre": "Hotel Estrella Andina",
       "Dirección": "Av. España Sur 422,  San Juan",
       "Teléfono": "02644201517",
       "gps": "maps.app.goo.gl/B8WiSXb1MC5f5pPG8"
+    },
+    "08": {
+      "Nombre": "",
+      "Dirección": "",
+      "Teléfono": "",
+      "gps": ""
     },
     "09": {
       "Nombre": "",
@@ -65,18 +67,20 @@
   },
 
   "comercios y mercados": {
-    "imageUrl": "../assets/centro-min.png",
-    "url": "./views/centros-comerciales.html",
+    "imageUrl": "../assets/centro.png",
+    "url": "./views/centros.html",
+    "icono": "../assets/SVG/comercios.svg",
+    "alt": "Icono de hoteles",
     "01": {
       "Nombre": "Patio Alvear Shopping",
       "Dirección": "Av. Libertador Gral. San Martín 1826",
       "Teléfono": "2644309000",
-      "gps": "goo.gl/maps/s2RGzVTw6QgowrYq9"
+      "gps": "https://maps.google.com/maps?q=s2RGzVTw6QgowrYq9"
     },
     "02": {
       "Nombre": "Paseo LIBERTAD",
       "Dirección": "Av. Circunvalación, Scalabrini Ortiz Nte. &, San Juan",
-      "Teléfono": "https://paseolibertad.com.ar/paseo-libertad-san-juan/",
+      "Teléfono": "No lo sé",
       "gps": "https://maps.app.goo.gl/u5bpTf1B99JZRE2P8"
     },
     "03": {
@@ -130,13 +134,14 @@
   },
 
   "hospitales y clínicas": {
-    "imageUrl": "../assets/hospital-min.png",
-    "url": "./views/clinicas.html",
+    "imageUrl": "../assets/hospital.png",
+    "url": "./views/hospitales.html",
+    "icono": "../assets/SVG/Hospitales.svg",
     "01": {
       "Nombre": "Clínica Guadalupe",
       "Dirección": "Matías Zavalla Norte 402",
       "Teléfono": "2644262090",
-      "gps": "goo.gl/maps/N5TKHS3UHKgiUfqa6"
+      "gps": "https://maps.google.com/maps?q=N5TKHS3UHKgiUfqa6"
     },
     "02": {
       "Nombre": "Clínica Mercedario (traumatología de avanzada) 24hs",
@@ -197,11 +202,12 @@
   "restaurantes y bares": {
     "imageUrl": "../assets/restaurantes_bares.png",
     "url": "./views/restaurantes.html",
+    "icono": "../assets/SVG/food.svg",
     "01": {
       "Nombre": "El Palacio De La Milanesa",
       "Dirección": "Av. Libertador Gral. San Martin Oeste y Carlos M. de Alvear Sur 1730",
       "Teléfono": "02644234254",
-      "gps": "goo.gl/maps/uCpzA8XtHb8ZjFXB9"
+      "gps": "https://maps.google.com/maps?q=uCpzA8XtHb8ZjFXB9"
     },
     "02": {
       "Nombre": "Soychu (comida vegetariana) horario: viernes y sábado de 8 a 23hs domingo 8 a 15hs",
@@ -260,8 +266,9 @@
   },
 
   "transportes": {
-    "imageUrl": "",
+    "imageUrl": "../assets/taxi.png",
     "url": "./views/transportes.html",
+    "icono": "../assets/SVG/taxi.svg",
     "01": {
       "Nombre": "REMIS OESTE",
       "Teléfono": "4272222"
@@ -285,8 +292,9 @@
   },
 
   "bancos y cajeros": {
-    "imageUrl": "",
+    "imageUrl": "../assets/bank.png",
     "url": "./views/bancos.html",
+    "icono": "../assets/SVG/bank.svg",
     "01": {
       "Nombre": "BANCO SAN JUAN LINK",
       "Dirección": "Av. Libertador Gral. San Martín 1826",
@@ -315,13 +323,14 @@
   },
 
   "farmacias": {
-    "imageUrl": "",
+    "imageUrl": "../assets/farmacia.png",
     "url": "./views/farmacias.html",
+    "icono": "../assets/SVG/farmacia.svg",
     "01": {
       "Nombre": "Farmacia San Martín",
       "Dirección": "Av. Libertador Gral. San Martín 593",
       "Teléfono": "02644215555",
-      "gps": "goo.gl/maps/Yks2arWfMzUtGWTd9"
+      "gps": "https://maps.google.com/maps?q=Yks2arWfMzUtGWTd9"
     },
     "02": {
       "Nombre": "Farmacia Cura Brochero",
