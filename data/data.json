@@ -1,6 +1,6 @@
 {
   "hotelería": {
-    "imageUrl": "../assets/hotel.png",
+    "imageUrl": "./assets/hotel.png",
     "url": "./views/hoteles.html",
     "icono": "../assets/SVG/Hoteles.svg",
     "alt": "Icono de hoteles",
@@ -67,7 +67,7 @@
   },
 
   "comercios y mercados": {
-    "imageUrl": "../assets/centro.png",
+    "imageUrl": "./assets/centro.png",
     "url": "./views/centros.html",
     "icono": "../assets/SVG/comercios.svg",
     "alt": "Icono de hoteles",
@@ -134,7 +134,7 @@
   },
 
   "hospitales y clínicas": {
-    "imageUrl": "../assets/hospital.png",
+    "imageUrl": "./assets/hospital.png",
     "url": "./views/hospitales.html",
     "icono": "../assets/SVG/Hospitales.svg",
     "01": {
@@ -200,7 +200,7 @@
   },
 
   "restaurantes y bares": {
-    "imageUrl": "../assets/restaurantes_bares.png",
+    "imageUrl": "./assets/restaurantes_bares.png",
     "url": "./views/restaurantes.html",
     "icono": "../assets/SVG/food.svg",
     "01": {
@@ -266,7 +266,7 @@
   },
 
   "transportes": {
-    "imageUrl": "../assets/taxi.png",
+    "imageUrl": "./assets/taxi.png",
     "url": "./views/transportes.html",
     "icono": "../assets/SVG/taxi.svg",
     "01": {
@@ -292,7 +292,7 @@
   },
 
   "bancos y cajeros": {
-    "imageUrl": "../assets/bank.png",
+    "imageUrl": "./assets/bank.png",
     "url": "./views/bancos.html",
     "icono": "../assets/SVG/bank.svg",
     "01": {
@@ -323,7 +323,7 @@
   },
 
   "farmacias": {
-    "imageUrl": "../assets/farmacia.png",
+    "imageUrl": "./assets/farmacia.png",
     "url": "./views/farmacias.html",
     "icono": "../assets/SVG/farmacia.svg",
     "01": {
