@@ -63,9 +63,9 @@
       "gps": ""
     }
   },
-  
+
   "comercios y mercados": {
-    "imageUrl": "",
+    "imageUrl": "../assets/centro-min.png",
     "url": "./views/centros-comerciales.html",
     "01": {
       "Nombre": "Patio Alvear Shopping",
@@ -128,8 +128,9 @@
       "gps": "https://maps.app.goo.gl/1n8UxbMPTeC6KYYM6"
     }
   },
+
   "hospitales y clínicas": {
-    "imageUrl": "https://comunidadprofesional.com.ar/wp-content/uploads/2023/04/clinicas.jpg",
+    "imageUrl": "../assets/hospital-min.png",
     "url": "./views/clinicas.html",
     "01": {
       "Nombre": "Clínica Guadalupe",
@@ -192,8 +193,9 @@
       "gps": "maps.app.goo.gl/tVQvvnaNNPjRragE6"
     }
   },
-  "restaurantes": {
-    "imageUrl": "URL_DE_LA_IMAGEN_DEL_RESTAURANTE",
+
+  "restaurantes y bares": {
+    "imageUrl": "../assets/restaurantes_bares.png",
     "url": "./views/restaurantes.html",
     "01": {
       "Nombre": "El Palacio De La Milanesa",
@@ -256,8 +258,9 @@
       "gps": "maps.app.goo.gl/KRn1gFuPxpvg9X4U9"
     }
   },
+
   "transportes": {
-    "imageUrl": "URL_DE_LA_IMAGEN_DE_TAXIS_Y_REMISES",
+    "imageUrl": "",
     "url": "./views/transportes.html",
     "01": {
       "Nombre": "REMIS OESTE",
@@ -280,8 +283,9 @@
       "Teléfono": "4210210"
     }
   },
+
   "bancos y cajeros": {
-    "imageUrl": "URL_DE_LA_IMAGEN_DE_BANCOS_Y_CAJEROS",
+    "imageUrl": "",
     "url": "./views/bancos.html",
     "01": {
       "Nombre": "BANCO SAN JUAN LINK",
@@ -309,8 +313,9 @@
       "gps": "maps.app.goo.gl/TwNSR1pouzLgSsKA6"
     }
   },
+
   "farmacias": {
-    "imageUrl": "URL_DE_LA_IMAGEN_DE_FARMACIAS",
+    "imageUrl": "",
     "url": "./views/farmacias.html",
     "01": {
       "Nombre": "Farmacia San Martín",
