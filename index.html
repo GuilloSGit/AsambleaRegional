@@ -39,14 +39,11 @@
     <!-- Body Container -->
     <div class="cointainer p-5">
       <div
-        class="container text-center row justify-content-sm-center"
+        class="container text-center row justify-content-lg-center home"
         id="card-container"
       >
         <!-- Cards de cada una de las opciones -->
       </div>
-    </div>
-    <div class="back-button-container">
-      <a class="back" href="./index.html"><span>🏠</span></a>
     </div>
     <script>
       // Función para cargar y mostrar datos desde el archivo JSON
@@ -69,7 +66,7 @@
 
         const categoryLink = document.createElement("a");
         categoryLink.href = categoryData.url;
-        categoryLink.classList.add("col-sm-auto", "card", "m-2");
+        categoryLink.classList.add("col-lg-auto", "card", "m-2");
 
         const categoryHeader = document.createElement("div");
 

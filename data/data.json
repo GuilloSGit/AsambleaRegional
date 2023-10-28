@@ -12,57 +12,57 @@
     },
     "02": {
       "Nombre": "Hotel El Refugio",
-      "Dirección": "Una dirección que no pusieron",
-      "Teléfono": "Un número vacío",
-      "gps": "https://www.google.com/maps/place/Apart+Hotel+El+Refugio/@-31.5322213,-68.5474219,17.75z/data=!4m20!1m10!3m9!1s0x9681403523292645:0xb805140925e5cadf!2sApart+Hotel+El+Refugio!5m2!4m1!1i2!8m2!3d-31.5322051!4d-68.5459799!16s%2Fg%2F1tdljhn6!3m8!1s0x9681403523292645:0xb805140925e5cadf!5m2!4m1!1i2!8m2!3d-31.5322051!4d-68.5459799!16s%2Fg%2F1tdljhn6?entry=ttu"
+      "Dirección": "Ramón y Cajal Nte. 97, San Juan",
+      "Teléfono": "2644477806",
+      "gps": "https://maps.app.goo.gl/hcxa2yS9Yhqqrbn48"
     },
     "03": {
       "Nombre": "Capital Hostel",
       "Dirección": "Ramón y Cajal Nte. 302, J5400 DVH, San Juan",
       "Teléfono": "02644210310",
-      "gps": "maps.app.goo.gl/6HBFbGp7B6Xcfe448"
+      "gps": "https://maps.app.goo.gl/6HBFbGp7B6Xcfe448"
     },
     "04": {
       "Nombre": "Hotel de Barrio Ciudad Naranjo",
       "Dirección": "Balcarce 55 OESTE, Rivadavia, San Juan",
       "Teléfono": "02644827408",
-      "gps": "maps.app.goo.gl/mdXss5UeyLMKCTc17"
+      "gps": "https://maps.app.goo.gl/mdXss5UeyLMKCTc17"
     },
     "05": {
       "Nombre": "Terraza del Sol Apart",
       "Dirección": "Santiago del Estero Sur y Fray Mamerto Esquiú, San Juan",
       "Teléfono": "02644275821",
-      "gps": "maps.app.goo.gl/UmusvR7PeQCU8ohA9"
+      "gps": "https://maps.app.goo.gl/UmusvR7PeQCU8ohA9"
     },
     "06": {
       "Nombre": "Hotel Nuevo Suizo",
       "Dirección": "Salta entre Mitre e Ignacio de la Roza, Capital",
       "Teléfono": "02644210067",
-      "gps": "maps.app.goo.gl/6cTYnTKakmAXEqQb8"
+      "gps": "https://maps.app.goo.gl/6cTYnTKakmAXEqQb8"
     },
     "07": {
       "Nombre": "Hotel Estrella Andina",
       "Dirección": "Av. España Sur 422,  San Juan",
       "Teléfono": "02644201517",
-      "gps": "maps.app.goo.gl/B8WiSXb1MC5f5pPG8"
+      "gps": "https://maps.app.goo.gl/B8WiSXb1MC5f5pPG8"
     },
     "08": {
-      "Nombre": "",
-      "Dirección": "",
-      "Teléfono": "",
-      "gps": ""
+      "Nombre": "Hotel Nuevo Suizo",
+      "Dirección": "Salta entre Mitre e Ignacio de la Roza, Capital",
+      "Teléfono": "2644210067",
+      "gps": "https://maps.app.goo.gl/6cTYnTKakmAXEqQb8"
     },
     "09": {
-      "Nombre": "",
-      "Dirección": "",
-      "Teléfono": "",
-      "gps": ""
+      "Nombre": "Hotel Cerro Blanco",
+      "Dirección": "Lateral de Circunvalación 195 (N). Desamparados",
+      "Teléfono": "2644262580",
+      "gps": "https://maps.app.goo.gl/NvqQNiYBEMtFLrNL9"
     },
     "10": {
-      "Nombre": "",
-      "Dirección": "",
-      "Teléfono": "",
-      "gps": ""
+      "Nombre": "Alhambra Inn Hotel",
+      "Dirección": "Gral Mariano Acha Sur 180, San Juan",
+      "Teléfono": "2644214780",
+      "gps": "https://maps.app.goo.gl/DVoo9LY9JyuchhR39"
     }
   },
 
@@ -80,56 +80,56 @@
     "02": {
       "Nombre": "Paseo LIBERTAD",
       "Dirección": "Av. Circunvalación, Scalabrini Ortiz Nte. &, San Juan",
-      "Teléfono": "No lo sé",
-      "gps": "https://maps.app.goo.gl/u5bpTf1B99JZRE2P8"
+      "Teléfono": "",
+      "gps": "https://https://maps.app.goo.gl/u5bpTf1B99JZRE2P8"
     },
     "03": {
       "Nombre": "Alto Del Bono Shopping",
       "Dirección": "Av. José Ignacio de la Roza Oeste 2100, San Juan",
       "Teléfono": "02644263431",
-      "gps": "https://maps.app.goo.gl/5jFqV7miefkfS5hG6"
+      "gps": "https://https://maps.app.goo.gl/5jFqV7miefkfS5hG6"
     },
     "04": {
       "Nombre": "Espacio San Juan Shopping Center",
       "Dirección": "Av. José Ignacio de la Roza Oeste 806, J5400 San Juan",
       "Teléfono": "02644238611",
-      "gps": "https://maps.app.goo.gl/UiQRuPEqUr8BBxb37"
+      "gps": "https://https://maps.app.goo.gl/UiQRuPEqUr8BBxb37"
     },
     "05": {
       "Nombre": "Patio San Ignacio",
       "Dirección": "Av. Ignacio de la Roza y Hermogenes Ruiz",
       "Teléfono": "",
-      "gps": "https://maps.app.goo.gl/3GeACBcoKezYHaMu8"
+      "gps": "https://https://maps.app.goo.gl/3GeACBcoKezYHaMu8"
     },
     "06": {
       "Nombre": "Super Mercado Myriam",
       "Dirección": "Av. Libertador Gral. San Martín, San Juan",
       "Teléfono": "",
-      "gps": "https://maps.app.goo.gl/iGKhmxrQ3YBCmY1r7"
+      "gps": "https://https://maps.app.goo.gl/iGKhmxrQ3YBCmY1r7"
     },
     "07": {
       "Nombre": "Supermercado VEA",
       "Dirección": "Av. Libertador Gral. San Martín 2359, San Juan",
       "Teléfono": "08109999832",
-      "gps": "https://maps.app.goo.gl/DCgWJC2Ea4o6DKdu8"
+      "gps": "https://https://maps.app.goo.gl/DCgWJC2Ea4o6DKdu8"
     },
     "08": {
       "Nombre": "Mercado San Jose",
       "Dirección": "J5400ALJ, San Jose Oeste 1742, J5400ALJ San Juan",
       "Teléfono": "4235372",
-      "gps": "https://maps.app.goo.gl/RenbmMEPyGLytyR8A"
+      "gps": "https://https://maps.app.goo.gl/RenbmMEPyGLytyR8A"
     },
     "09": {
       "Nombre": "Supermercado VEA",
       "Dirección": "Av. José Ignacio de la Roza Oeste 1986, J5400 San Juan",
       "Teléfono": "08109999832",
-      "gps": "https://maps.app.goo.gl/k7ugSyPZDV5QCN879"
+      "gps": "https://https://maps.app.goo.gl/k7ugSyPZDV5QCN879"
     },
     "10": {
       "Nombre": "Supermercado Cordiez",
       "Dirección": "Santa Fe Este 471, J5402DRY San Juan",
       "Teléfono": "0264 429-4846",
-      "gps": "https://maps.app.goo.gl/1n8UxbMPTeC6KYYM6"
+      "gps": "https://https://maps.app.goo.gl/1n8UxbMPTeC6KYYM6"
     }
   },
 
@@ -147,55 +147,55 @@
       "Nombre": "Clínica Mercedario (traumatología de avanzada) 24hs",
       "Dirección": "España 503(N)",
       "Teléfono": "4276003",
-      "gps": "maps.app.goo.gl/wC4VE9XeVXpsA7Vz8"
+      "gps": "https://maps.app.goo.gl/wC4VE9XeVXpsA7Vz8"
     },
     "03": {
       "Nombre": "Sanatorio Argentino (clínica gral) 24hs",
       "Dirección": "San Luis 432(o)",
       "Teléfono": "264/4303030-5250109-4583724",
-      "gps": "maps.app.goo.gl/bt3Sk16ypDG5frsD6"
+      "gps": "https://maps.app.goo.gl/bt3Sk16ypDG5frsD6"
     },
     "04": {
       "Nombre": "Hospital Rawson (clínica gral) urgencias",
       "Dirección": "Av Rawson 494(s)-Gral Paz y Av Rawson",
       "Teléfono": "02644222272-02644224005",
-      "gps": "maps.app.goo.gl/ppGNENSmpuuSfbaWA"
+      "gps": "https://maps.app.goo.gl/ppGNENSmpuuSfbaWA"
     },
     "05": {
       "Nombre": "Hospital Privado Nariz - Garganta y Oídos S.R.L.",
       "Dirección": "Domingo Faustino Sarmiento Sur 328, San Juan",
       "Teléfono": "0264 417-5280",
-      "gps": "maps.app.goo.gl/d89bnimTMCuM3jWv7"
+      "gps": "https://maps.app.goo.gl/d89bnimTMCuM3jWv7"
     },
     "06": {
       "Nombre": "Clínica Santa Lucía (ojos)",
       "Dirección": "831 J5402GUQ, Mendoza Sur 831, J5402GUQ San Juan",
       "Teléfono": "0264 421-1827",
-      "gps": "maps.app.goo.gl/SUuNyCKar4KBPn2U7"
+      "gps": "https://maps.app.goo.gl/SUuNyCKar4KBPn2U7"
     },
     "07": {
       "Nombre": "Sanatorio Argentino Consultorios Externos",
       "Dirección": "Sta Fe Este 263, J5402AAE San Juan",
       "Teléfono": "0264 430-3050",
-      "gps": "maps.app.goo.gl/owg5Lz6yLuBGqqka8"
+      "gps": "https://maps.app.goo.gl/owg5Lz6yLuBGqqka8"
     },
     "08": {
       "Nombre": "Clínica Santa María",
       "Dirección": "Tucumán Norte 784, J5400 San Juan",
       "Teléfono": "02644202040",
-      "gps": "maps.app.goo.gl/KxQMbvTXxRNKHRgG8"
+      "gps": "https://maps.app.goo.gl/KxQMbvTXxRNKHRgG8"
     },
     "09": {
       "Nombre": "Cimyn Hospital de maternidad",
       "Dirección": "Catamarca Sur 417, J5402GSI San Juan",
       "Teléfono": "2644309100",
-      "gps": "maps.app.goo.gl/bV5hRjNVHZxsGEZN6"
+      "gps": "https://maps.app.goo.gl/bV5hRjNVHZxsGEZN6"
     },
     "10": {
       "Nombre": "Hospital Público Dr. Marcial V. Quiroga",
       "Dirección": "Av. Libertador Gral. San Martín 5401, Rivadavia, San Juan",
       "Teléfono": "0264433-0880",
-      "gps": "maps.app.goo.gl/tVQvvnaNNPjRragE6"
+      "gps": "https://maps.app.goo.gl/tVQvvnaNNPjRragE6"
     }
   },
 
@@ -210,58 +210,60 @@
       "gps": "https://maps.google.com/maps?q=uCpzA8XtHb8ZjFXB9"
     },
     "02": {
-      "Nombre": "Soychu (comida vegetariana) horario: viernes y sábado de 8 a 23hs domingo 8 a 15hs",
+      "Nombre": "Soychu (comida vegetariana)",
       "Dirección": "Av Ig de la Rosa 223(o)",
       "Teléfono": "02644221939",
-      "gps": "maps.app.goo.gl/VGsS89foixDC6Nur8"
+      "gps": "https://maps.app.goo.gl/VGsS89foixDC6Nur8",
+      "horario": "viernes y sábado de 8 a 23hs domingo 8 a 15hs"
     },
     "03": {
-      "Nombre": "Pateo Alvear horario 10 a 22hs",
+      "Nombre": "Pateo Alvear",
       "Dirección": "Av Libertador 1826(o)",
       "Teléfono": "2644309000",
-      "gps": "maps.app.goo.gl/BZ8BRKyAALBddiJA8"
+      "gps": "https://maps.app.goo.gl/BZ8BRKyAALBddiJA8",
+      "horario": "10 a 22hs"
     },
     "04": {
-      "Nombre": "Universo gluten free(comida para Celiacos)",
+      "Nombre": "Universo gluten free",
       "Dirección": "Av. Paula Albarracín de Sarmiento 462 Sur, San Juan",
-      "Teléfono": "02645856834",
-      "gps": "maps.app.goo.gl/xcewxdVfauGwUWmz8"
+      "Teléfono": "2645856834",
+      "gps": "https://maps.app.goo.gl/xcewxdVfauGwUWmz8"
     },
     "05": {
       "Nombre": "Mostaza Libertador",
       "Dirección": "Av. Libertador Gral. San Martín 1710",
       "Teléfono": "026456220764",
-      "gps": "maps.app.goo.gl/Qa6gf6ogknBFPmsB9"
+      "gps": "https://maps.app.goo.gl/Qa6gf6ogknBFPmsB9"
     },
     "06": {
       "Nombre": "Ameghino - Almacén y Comidas",
       "Dirección": "Florentino Ameghino Nte. 126 sur",
-      "Teléfono": "02645248407",
-      "gps": "maps.app.goo.gl/98jWMmAk34Mz4LWV6"
+      "Teléfono": "2645248407",
+      "gps": "https://maps.app.goo.gl/98jWMmAk34Mz4LWV6"
     },
     "07": {
       "Nombre": "Rotiseria Vegetariana Sue Yuen",
       "Dirección": "25 de Mayo Oeste 1412, J5400 San Juan",
       "Teléfono": "-",
-      "gps": "maps.app.goo.gl/kN6Ap2mdEfMeZnC78"
+      "gps": "https://maps.app.goo.gl/kN6Ap2mdEfMeZnC78"
     },
     "08": {
       "Nombre": "La venne",
       "Dirección": "Esquina San Luis y Urquiza (frente al estadio)",
-      "Teléfono": "0264154572435",
-      "gps": "maps.app.goo.gl/wWT4n68GwL25J6Po7"
+      "Teléfono": "2644572435",
+      "gps": "https://maps.app.goo.gl/wWT4n68GwL25J6Po7"
     },
     "09": {
       "Nombre": "Tazio Resto",
       "Dirección": "Florentino Ameghino Sur 102, San Juan",
-      "Teléfono": "02644888666",
-      "gps": "maps.app.goo.gl/WQKLgd981ukqproK8"
+      "Teléfono": "2644888666",
+      "gps": "https://maps.app.goo.gl/WQKLgd981ukqproK8"
     },
     "10": {
       "Nombre": "Central de sabores",
       "Dirección": "Urquiza Sur, Av. Ignacio de la Roza Oeste &",
-      "Teléfono": "02644172503",
-      "gps": "maps.app.goo.gl/KRn1gFuPxpvg9X4U9"
+      "Teléfono": "2644172503",
+      "gps": "https://maps.app.goo.gl/KRn1gFuPxpvg9X4U9"
     }
   },
 
@@ -271,23 +273,23 @@
     "icono": "../assets/SVG/taxi.svg",
     "01": {
       "Nombre": "REMIS OESTE",
-      "Teléfono": "4272222"
+      "Teléfono": "2644272222"
     },
     "02": {
       "Nombre": "RAMPA REMIS",
-      "Teléfono": "4341234"
+      "Teléfono": "2644341234"
     },
     "03": {
       "Nombre": "REMIS SAN CAYETANO",
-      "Teléfono": "4216980"
+      "Teléfono": "2644216980"
     },
     "04": {
       "Nombre": "TAXI SAN JUAN",
-      "Teléfono": "4217000"
+      "Teléfono": "2644217000"
     },
     "05": {
       "Nombre": "DEL BONO REMIS",
-      "Teléfono": "4210210"
+      "Teléfono": "2644210210"
     }
   },
 
@@ -298,27 +300,27 @@
     "01": {
       "Nombre": "BANCO SAN JUAN LINK",
       "Dirección": "Av. Libertador Gral. San Martín 1826",
-      "gps": "maps.app.goo.gl/8ELeJmmVaCtX2tk1A?g_st=ic"
+      "gps": "https://maps.app.goo.gl/8ELeJmmVaCtX2tk1A?g_st=ic"
     },
     "02": {
       "Nombre": "Cajero automático Banco Nación Link",
       "Dirección": "Esquina Av. Libertador San Martín y Urquiza",
-      "gps": "maps.app.goo.gl/3mC7XFfeX8YFEimb8"
+      "gps": "https://maps.app.goo.gl/3mC7XFfeX8YFEimb8"
     },
     "03": {
       "Nombre": "Cajero Automático Banco San Juan - Red Link",
       "Dirección": "Las Heras 301-399, J5400FRD San Juan",
-      "gps": "maps.app.goo.gl/Q7xZFgNUt56aJv418"
+      "gps": "https://maps.app.goo.gl/Q7xZFgNUt56aJv418"
     },
     "04": {
       "Nombre": "Banco Santander Rio",
       "Dirección": "Esquina Ignacio de la Roza Oeste y Domingo Faustino Sarmiento",
-      "gps": "maps.app.goo.gl/1vnbdAm56EXoyGaMA"
+      "gps": "https://maps.app.goo.gl/1vnbdAm56EXoyGaMA"
     },
     "05": {
       "Nombre": "Banco Galicia",
       "Dirección": "Av. José Ignacio de la Roza Este 112",
-      "gps": "maps.app.goo.gl/TwNSR1pouzLgSsKA6"
+      "gps": "https://maps.app.goo.gl/TwNSR1pouzLgSsKA6"
     }
   },
 
@@ -336,55 +338,55 @@
       "Nombre": "Farmacia Cura Brochero",
       "Dirección": "Ramón y Cajal Nte. 40",
       "Teléfono": "2644277728",
-      "gps": "maps.app.goo.gl/TatKk7StwuqM2xS89"
+      "gps": "https://maps.app.goo.gl/TatKk7StwuqM2xS89"
     },
     "03": {
       "Nombre": "Farmacia Matias",
       "Dirección": "25 de Mayo 1606, San Juan",
       "Teléfono": "02644264753",
-      "gps": "maps.app.goo.gl/YrctBHfLov54ugNq6"
+      "gps": "https://maps.app.goo.gl/YrctBHfLov54ugNq6"
     },
     "04": {
       "Nombre": "Farmacia Santa Cecilia",
       "Dirección": "Florentino Ameghino Sur, San Juan",
       "Teléfono": "02644236031",
-      "gps": "maps.app.goo.gl/sDEsKPCS5gKmc4XC7"
+      "gps": "https://maps.app.goo.gl/sDEsKPCS5gKmc4XC7"
     },
     "05": {
       "Nombre": "Farmacia Santa Gema",
       "Dirección": "Urquiza Sur 299, San Juan",
       "Teléfono": "4216444",
-      "gps": "maps.app.goo.gl/9B7wnXMpn2Apwn9b9"
+      "gps": "https://maps.app.goo.gl/9B7wnXMpn2Apwn9b9"
     },
     "06": {
       "Nombre": "Farmacia Universidad I",
       "Dirección": "Av. José Ignacio de la Roza Oeste 1139, J5402DCL San Juan",
       "Teléfono": "",
-      "gps": "maps.app.goo.gl/kMkTZjghi96zuZEs9"
+      "gps": "https://maps.app.goo.gl/kMkTZjghi96zuZEs9"
     },
     "07": {
       "Nombre": "Farmacia Parque",
       "Dirección": "Av. José Ignacio de la Roza Oeste 850 oeste, San Juan",
       "Teléfono": "02644273838",
-      "gps": "maps.app.goo.gl/X3Z3zuSGJEniCWCUA"
+      "gps": "https://maps.app.goo.gl/X3Z3zuSGJEniCWCUA"
     },
     "08": {
       "Nombre": "Farmacia Sabin II",
       "Dirección": "Av. José Ignacio de la Roza Oeste 1816 esquina Paula A. de Sarmiento, San Juan",
       "Teléfono": "02644238790",
-      "gps": "maps.app.goo.gl/AED6iPPqtAKSk5SB9"
+      "gps": "https://maps.app.goo.gl/AED6iPPqtAKSk5SB9"
     },
     "09": {
       "Nombre": "Farmacia San Pantaleon II",
       "Dirección": "Las Heras Sur y Francisco Laprida",
       "Teléfono": "02644221818",
-      "gps": "maps.app.goo.gl/qrRUXtSzFSgW1EGE8"
+      "gps": "https://maps.app.goo.gl/qrRUXtSzFSgW1EGE8"
     },
     "10": {
       "Nombre": "Farmacia Desamparados",
       "Dirección": "Av. Libertador y Calle San Martín Oeste 2338",
       "Teléfono": "4261234",
-      "gps": "maps.app.goo.gl/FLGJYGw2vcMPfhX77"
+      "gps": "https://maps.app.goo.gl/FLGJYGw2vcMPfhX77"
     }
   }
 }
