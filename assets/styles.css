@@ -197,7 +197,7 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  max-width: 98%;
+  max-width: 78%;
 }
 
 .entity-card-container {

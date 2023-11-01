@@ -59,7 +59,7 @@
           const cardTitle = document.createElement("h5");
           cardTitle.classList.add("card-title");
           cardTitle.innerHTML = `
-                    <div class="icono"><img src="${icono}" alt="${centro.Nombre}" style="height:39px"><p class="entity-name">${centro.Nombre}</p></div>
+                    <div class="icono"><img src="${icono}" alt="${centro.Nombre}" style="height:35px;margin-right:8px"><p class="entity-name">${centro.Nombre}</p></div>
                 `;
 
           const cardContent = document.createElement("div");
@@ -69,7 +69,6 @@
                     <p style="line-height:1.3"></p>
                     <div class="card-content-info">
                       <a href="tel:${centro.Teléfono}" class="card-content-telefono">${centro.Teléfono}</a>
-                      <a class="card-content-gps" href="${centro.gps}" target="_blank"><span><img src="../assets/SVG/MAPS_GPS.svg"/></span></a>
                     </div>
                   `;
 
